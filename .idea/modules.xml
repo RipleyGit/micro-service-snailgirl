@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/micro-service-snailgirl.iml" filepath="$PROJECT_DIR$/.idea/micro-service-snailgirl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-snailgirl-menus/ms-snailgirl-menus.iml" filepath="$PROJECT_DIR$/ms-snailgirl-menus/ms-snailgirl-menus.iml" />
     </modules>
   </component>
 </project>
