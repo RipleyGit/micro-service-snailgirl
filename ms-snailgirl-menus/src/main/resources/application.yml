@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://118.89.182.204:3306/snailgril_release?useUnicode=true&amp;characterEncoding=utf-8
+    data-username: root
+    data-password: 118.89.182.204
+mybatis:
+  config-location: classpath:/mybatis/mybatis-config.xml
+  mapper-locations: classpath:/mybatis/mappers/*.xml
+  type-aliases-package: me.seaof.menus.pojo
