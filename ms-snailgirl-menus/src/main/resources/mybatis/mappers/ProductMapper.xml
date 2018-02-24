@@ -87,19 +87,19 @@
 
     <!-- 查询状态为可用的 全部商品信息 -->
     <select id="findAll" resultType="Product">
-        SELECT *FROM PRODUCT_S p WHERE PROD_STATE = 1
+        SELECT *FROM product_s p WHERE PROD_STATE = 1
     </select>
     <!-- 无状态查询 全部商品信息 -->
     <select id="findAllProd" resultType="Product">
         SELECT * FROM PRODUCT_S
     </select>
     <!-- 根据商品ID查询 商品信息 -->
-    <select id="findProdById" resultType="Product">
-        SELECT *FROM PRODUCT_S  WHERE PROD_ID=#{prodId}
+    <select id="findProdById" resultType="Product" >
+        SELECT *FROM product_s  WHERE PROD_ID=#{prodId}
     </select>
     <!-- 根据商品的状态 查询当前上架商品总数量-->
-    <select id="findProdCountByState" parameterType="java.lang.Integer" resultType="Integer">
-        SELECT COUNT(*) FROM PRODUCT_S WHERE PROD_STATE = #{prodState}
+    <select id="findProdCountByState" resultType="Integer">
+        SELECT COUNT(*) FROM product_s WHERE PROD_STATE = #{prodState}
     </select>
     <!-- 根据商品的类别 查询当前上架商品总数量-->
     <select id="findAllProdByType" resultMap="BaseResultMap">
@@ -107,7 +107,7 @@
     </select>
 
     <select id="findAllBySearch" resultType="Product">
-        SELECT *FROM  PRODUCT_S WHERE PROD_NAME LIKE CONCAT('%',#{search},'%')
+        SELECT *FROM  product_s WHERE PROD_NAME LIKE CONCAT('%',#{search},'%')
         OR PROD_TYPE LIKE CONCAT('%',#{search},'%')
     </select>
 

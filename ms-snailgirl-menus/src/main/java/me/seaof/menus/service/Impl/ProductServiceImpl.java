@@ -55,7 +55,7 @@ public class ProductServiceImpl implements ProductService {
      */
     @Override
     public int findProdCount() {
-        return productMapper.findProdCountByState(1);
+        return productMapper.findProdCountByState("1");
     }
 
     /**

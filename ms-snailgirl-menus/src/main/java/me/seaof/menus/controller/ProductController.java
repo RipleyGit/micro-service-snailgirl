@@ -5,15 +5,15 @@ import com.alibaba.fastjson.JSON;
 import me.seaof.menus.pojo.Product;
 import me.seaof.menus.service.Impl.ProductServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
 import java.util.List;
 
-@Controller
+@RestController
 @RequestMapping("/prod")
 public class ProductController {
 
@@ -23,7 +23,7 @@ public class ProductController {
      *  展示全部的商品列表
      * @return List<Product>
      */
-    @GetMapping("/prodList")
+    @RequestMapping("/prodList")
     public String toProductList(){
         List<Product> allProductList = productService.findAll();
         return JSON.toJSONString(allProductList);
@@ -55,7 +55,6 @@ public class ProductController {
      * @param search
      * @return
      */
-    @RequestMapping("/prodListBySearch")
     @GetMapping("/prodListBySearch/{search}")
     public String ProdListBySearchAction(@PathVariable("search") String search) {
         //2.调用service层的方法查询指定的商品
@@ -63,13 +62,12 @@ public class ProductController {
 
         //如果没有找到商品，跳转到NotFound页面
         if(list.size()==0){
-            return "/front/NotFoundProd";
+            return "null";
         }
         //3.将所有商品的集合存入request域 并转发带prod_list页面
 
-        return "/front/popular-Restaurents";
+        return JSON.toJSONString(list);
     }
-
 
 
 }

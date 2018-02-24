@@ -66,7 +66,7 @@ public interface ProductMapper{
      * @param prodState
      * @return
      */
-    int findProdCountByState(Integer prodState);
+    int findProdCountByState(String prodState);
 
     /**
      * 根据商品的类别 查询当前上架商品总数量
