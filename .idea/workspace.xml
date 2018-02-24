@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f1d09e2-2663-4152-b7f4-1fcdaa62b277" name="Default" comment="">
+    <list default="true" id="2f1d09e2-2663-4152-b7f4-1fcdaa62b277" name="Default" comment="商品查询模块初步完成">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-snailgirl-menus/src/main/java/me/seaof/menus/controller/HelloController.java" afterPath="$PROJECT_DIR$/ms-snailgirl-menus/src/main/java/me/seaof/menus/controller/HelloController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-snailgirl-menus/src/main/java/me/seaof/menus/controller/ProductController.java" afterPath="$PROJECT_DIR$/ms-snailgirl-menus/src/main/java/me/seaof/menus/controller/ProductController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-snailgirl-menus/src/main/java/me/seaof/menus/mapper/ProductMapper.java" afterPath="$PROJECT_DIR$/ms-snailgirl-menus/src/main/java/me/seaof/menus/mapper/ProductMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-snailgirl-menus/src/main/java/me/seaof/menus/service/Impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/ms-snailgirl-menus/src/main/java/me/seaof/menus/service/Impl/ProductServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ms-snailgirl-menus/src/main/resources/mybatis/mappers/ProductMapper.xml" afterPath="$PROJECT_DIR$/ms-snailgirl-menus/src/main/resources/mybatis/mappers/ProductMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/ms-snailgirl-menus/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/ms-snailgirl-menus/src/main/java/me/seaof/menus/mapper/ProductMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="97" column="66" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="97" selection-end-column="66" />
+              <caret line="97" column="66" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="97" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/ms-snailgirl-menus/src/main/resources/mybatis/mappers/ProductMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="109" column="78" lean-forward="true" selection-start-line="109" selection-start-column="78" selection-end-line="109" selection-end-column="78" />
+              <caret line="109" column="78" lean-forward="false" selection-start-line="109" selection-start-column="78" selection-end-line="109" selection-end-column="78" />
               <folding>
                 <marker date="1519459396136" expanded="true" signature="2695:2767" ph="delete from " />
                 <marker date="1519459396136" expanded="true" signature="2846:2995" ph="delete from " />
@@ -108,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/ms-snailgirl-menus/src/main/java/me/seaof/menus/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
-              <caret line="37" column="74" lean-forward="true" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
+              <caret line="37" column="74" lean-forward="false" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -256,88 +251,6 @@
             <path>
               <item name="micro-service-snailgirl" type="b2602c69:ProjectViewProjectNode" />
               <item name="micro-service-snailgirl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-snailgirl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-snailgirl" type="462c0819:PsiDirectoryNode" />
-              <item name="ms-snailgirl-menus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-snailgirl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-snailgirl" type="462c0819:PsiDirectoryNode" />
-              <item name="ms-snailgirl-menus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-snailgirl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-snailgirl" type="462c0819:PsiDirectoryNode" />
-              <item name="ms-snailgirl-menus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-snailgirl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-snailgirl" type="462c0819:PsiDirectoryNode" />
-              <item name="ms-snailgirl-menus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-snailgirl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-snailgirl" type="462c0819:PsiDirectoryNode" />
-              <item name="ms-snailgirl-menus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="menus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-snailgirl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-snailgirl" type="462c0819:PsiDirectoryNode" />
-              <item name="ms-snailgirl-menus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="menus" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-snailgirl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-snailgirl" type="462c0819:PsiDirectoryNode" />
-              <item name="ms-snailgirl-menus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="menus" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-snailgirl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-snailgirl" type="462c0819:PsiDirectoryNode" />
-              <item name="ms-snailgirl-menus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-snailgirl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-snailgirl" type="462c0819:PsiDirectoryNode" />
-              <item name="ms-snailgirl-menus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="micro-service-snailgirl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="micro-service-snailgirl" type="462c0819:PsiDirectoryNode" />
-              <item name="ms-snailgirl-menus" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mappers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -488,7 +401,7 @@
       <workItem from="1518343389480" duration="404000" />
       <workItem from="1518401617104" duration="23219000" />
       <workItem from="1519288838685" duration="3575000" />
-      <workItem from="1519433935099" duration="4571000" />
+      <workItem from="1519433935099" duration="4796000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis基本引入">
       <created>1518343742286</created>
@@ -504,11 +417,25 @@
       <option name="project" value="LOCAL" />
       <updated>1518428049491</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="商品查询模块初步完成">
+      <created>1519459737453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519459737453</updated>
+    </task>
+    <task id="LOCAL-00004" summary="商品查询模块初步完成">
+      <created>1519459896941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519459896941</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31769000" />
+    <option name="totallyTimeSpent" value="31994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="766" y="37" width="1236" height="1001" extended-state="0" />
@@ -556,7 +483,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mybatis基本引入" />
     <MESSAGE value="spring boot 整个mybatis 框架 商品微服务 基础环境搭建成功" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring boot 整个mybatis 框架 商品微服务 基础环境搭建成功" />
+    <MESSAGE value="商品查询模块初步完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品查询模块初步完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -746,7 +674,7 @@
     <entry file="file://$PROJECT_DIR$/ms-snailgirl-menus/src/main/resources/mybatis/mappers/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="109" column="78" lean-forward="true" selection-start-line="109" selection-start-column="78" selection-end-line="109" selection-end-column="78" />
+          <caret line="109" column="78" lean-forward="false" selection-start-line="109" selection-start-column="78" selection-end-line="109" selection-end-column="78" />
           <folding>
             <marker date="1519459396136" expanded="true" signature="2695:2767" ph="delete from " />
             <marker date="1519459396136" expanded="true" signature="2846:2995" ph="delete from " />
@@ -767,7 +695,7 @@
     <entry file="file://$PROJECT_DIR$/ms-snailgirl-menus/src/main/java/me/seaof/menus/mapper/ProductMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="97" column="66" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="97" selection-end-column="66" />
+          <caret line="97" column="66" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="97" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -777,7 +705,7 @@
     <entry file="file://$PROJECT_DIR$/ms-snailgirl-menus/src/main/java/me/seaof/menus/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="37" column="74" lean-forward="true" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
+          <caret line="37" column="74" lean-forward="false" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
